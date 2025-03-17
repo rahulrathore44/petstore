@@ -57,10 +57,14 @@ class PetService {
     }
 
     fun save(pet: Pet): Pet {
-        val id = currentId++
-        val newPet = pet.copy(id = id)
-        pets[id] = newPet
-        return newPet
+        pets[pet.id] = pet
+        return pet
+    }
+
+    fun savePets(pets: List<Pet>): List<Pet> {
+        return pets.map { pet ->
+            save(pet)
+        }
     }
 
     fun update(id: Int, pet: Pet): Pet? {

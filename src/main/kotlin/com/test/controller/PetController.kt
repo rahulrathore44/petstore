@@ -79,6 +79,12 @@ class PetController @Inject constructor(private val petService: PetService) {
         return HttpResponse.created(createdPet)
     }
 
+    @Post("/addPets")
+    fun addPets(@Body pet: List<Pet>): HttpResponse<List<Pet>> {
+        val createdPet = petService.savePets(pet)
+        return HttpResponse.created(createdPet)
+    }
+
     @Put("/updatePetById/{id}")
     fun updatePet(@PathVariable id: Int, @Body pet: Pet): HttpResponse<Pet> {
         val updatedPet = petService.update(id, pet)
