@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Class-Path: resources/ classes/ libs/micronaut-kotlin-runtime-3.2.2.jar 
+ libs/micronaut-http-client-3.10.1.jar libs/micronaut-http-server-netty-
+ 3.10.1.jar libs/micronaut-http-netty-3.10.1.jar libs/micronaut-http-ser
+ ver-3.10.1.jar libs/micronaut-websocket-3.10.1.jar libs/micronaut-http-
+ client-core-3.10.1.jar libs/micronaut-runtime-3.10.1.jar libs/micronaut
+ -jackson-databind-3.10.1.jar libs/micronaut-jackson-core-3.10.1.jar lib
+ s/micronaut-json-core-3.10.1.jar libs/micronaut-router-3.10.1.jar libs/
+ micronaut-http-3.10.1.jar libs/micronaut-buffer-netty-3.10.1.jar libs/m
+ icronaut-context-3.10.1.jar libs/micronaut-aop-3.10.1.jar libs/micronau
+ t-inject-3.10.1.jar libs/jakarta.annotation-api-2.1.1.jar libs/jackson-
+ datatype-jdk8-2.15.0.jar libs/jackson-datatype-jsr310-2.15.0.jar libs/j
+ ackson-databind-2.15.0.jar libs/jackson-annotations-2.15.0.jar libs/jac
+ kson-core-2.15.0.jar libs/jackson-module-kotlin-2.15.0.jar libs/kotlin-
+ reflect-1.6.21.jar libs/kotlin-stdlib-jdk8-1.6.21.jar libs/logback-clas
+ sic-1.2.11.jar libs/javax.annotation-api-1.3.2.jar libs/logback-core-1.
+ 2.11.jar libs/netty-handler-proxy-4.1.94.Final.jar libs/netty-codec-htt
+ p2-4.1.94.Final.jar libs/netty-codec-http-4.1.94.Final.jar libs/netty-h
+ andler-4.1.94.Final.jar libs/netty-codec-socks-4.1.94.Final.jar libs/ne
+ tty-codec-4.1.94.Final.jar libs/netty-transport-native-unix-common-4.1.
+ 94.Final.jar libs/netty-transport-4.1.94.Final.jar libs/netty-buffer-4.
+ 1.94.Final.jar libs/reactor-core-3.5.0.jar libs/micronaut-core-reactive
+ -3.10.1.jar libs/reactive-streams-1.0.4.jar libs/micronaut-core-3.10.1.
+ jar libs/slf4j-api-1.7.36.jar libs/snakeyaml-2.0.jar libs/validation-ap
+ i-2.0.1.Final.jar libs/kotlin-stdlib-jdk7-1.6.21.jar libs/kotlin-stdlib
+ -1.6.21.jar libs/kotlin-stdlib-common-1.6.21.jar libs/netty-resolver-4.
+ 1.94.Final.jar libs/netty-common-4.1.94.Final.jar libs/annotations-13.0
+ .jar libs/jakarta.inject-api-2.0.1.jar libs/config-1.4.2.jar libs/fastd
+ oubleparser-0.8.0.jar
+Main-Class: com.test.ApplicationKt
+
